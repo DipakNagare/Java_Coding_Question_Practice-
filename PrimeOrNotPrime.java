@@ -26,10 +26,10 @@ public class PrimeOrNotPrime {
 
  /*Using anothe logic */
 
- if (num > 1) {   // first check the nuber is greathe than 1 or not if it is go inside the loop
+ if (num > 1) {   // first check the number is greathe than 1 or not if it is go inside the loop
 
     for (int i = 1; i <= num; i++) {  // they run loop until the number is less than i.
-        if (num % i == 0) { // they check the how many time they devide the nubmer so based on this they increase the count value for every time if number is divided
+        if (num % i == 0) { // they check the how many Factor og numberis coming or they devide the nubmer so based on this they increase the count value for every time if number is divided
             count++;
         }  
     }
